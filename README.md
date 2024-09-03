@@ -18,16 +18,16 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ### Task 1: Setup
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm run dev`
-- [ ] Implement the project on the `main` branch, committing changes regularly.
-- [ ] Push commits: `git push origin main`.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository in your terminal
+- [X] Download project dependencies by running `npm install`
+- [X] Start up the app using `npm run dev`
+- [X] Implement the project on the `main` branch, committing changes regularly.
+- [X] Push commits: `git push origin main`.
 
 ### Task 2: Planning
 
-- [ ] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
+- [X] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
 - [ ] Once you have a design plan in mind, break down the designs into individual components.
 - [ ] Plan which components will hold state, what data each needs from props (if any), and where you will make your data fetch.
 
@@ -38,12 +38,12 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ## Task 4: Fetching the data
 
-- [ ] Inside `frontend/components/App.js` add state for the data you'll get from NASA.
-- [ ] Add an effect hook to handle the API call side effect after the first render of App.
-- [ ] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and learn how to make the API call.
-- [ ] Using the endpoint given in the docs, fetch the data using `axios`, which is already installed in the project.
-- [ ] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
-- [ ] Before you add your data to state, make sure your effect hook has a dependencies array. Otherwise, you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to request a real API key.**
+- [X] Inside `frontend/components/App.js` add state for the data you'll get from NASA.
+- [X] Add an effect hook to handle the API call side effect after the first render of App.
+- [X] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and learn how to make the API call.
+- [X] Using the endpoint given in the docs, fetch the data using `axios`, which is already installed in the project.
+- [X] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
+- [X] Before you add your data to state, make sure your effect hook has a dependencies array. Otherwise, you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to request a real API key.**
 
 **Notes on the NASA API**
 
@@ -59,8 +59,8 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ## Task 5: Consuming the data
 
-- [ ] Once you have made the call correctly, and logged the data, add the data to the state property you built.
-- [ ] Build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
+- [X] Once you have made the call correctly, and logged the data, add the data to the state property you built.
+- [X] Build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
 
 **Pro Tips**
 
@@ -80,11 +80,11 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ### Task 6: Stretch (Optional!)
 
-- [ ] Notice the optional query param `date`? You can pass a different date in your url to get the APOD from a different date. Add a date dropdown or a date picker that allows you to select a different date and see that APOD. This will be quite a bit of work, but it will be a fantastic exercise to go through a little more complicated logic and interaction in your app. This is also a very common type of interaction, so it would be good to try this out.
+- [X] Notice the optional query param `date`? You can pass a different date in your url to get the APOD from a different date. Add a date dropdown or a date picker that allows you to select a different date and see that APOD. This will be quite a bit of work, but it will be a fantastic exercise to go through a little more complicated logic and interaction in your app. This is also a very common type of interaction, so it would be good to try this out.
 
 ## Submission Format
 
-- [ ] Submit a link to your github repo in your learning platform.
+- [X] Submit a link to your github repo in your learning platform.
 
 -----
 

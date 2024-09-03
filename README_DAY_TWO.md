@@ -2,7 +2,7 @@
 
 ## Advanced Styling
 
-In this project you will refactor the styling you completed in the APOD app. You will style it using [Styled Components](https://styled-components.com/), although you are welcome to _also_ use one or two [Reactstrap](https://reactstrap.github.io/) components if you wish.
+In this project you will refactor the styling you completed in the APOD app. You will style it using [Styled Components](https://stytled-components.com/), although you are welcome to _also_ use one or two [Reactstrap](https://reactstrap.github.io/) components if you wish.
 
 ## Introduction
 
