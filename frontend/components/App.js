@@ -31,14 +31,14 @@ function App() {
   }, []);
   if (!pictureOfTheDay) return "We're going to space, hang tight... ";
   return (
-    <sectio>
+      <section>
       <CardMaker
         title={pictureOfTheDay.title}
         explanation={pictureOfTheDay.explanation}
         imageURL={pictureOfTheDay.url}
         date={pictureOfTheDay.date}
       />
-    </sectio>
+      </section>
   );
 }
 
